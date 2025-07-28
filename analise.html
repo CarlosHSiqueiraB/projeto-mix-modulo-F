@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Mix</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="analise.html">Projeto Análise</a></li>
+        </ul>
+    </nav>
+
+    <div id="centro">
+        <h1>Analisador de números</h1>
+        <label>Número entre 1 a 100: <input type="number" id="num"></label> <input type="button" class="botao"
+        value="Adicionar" onclick="adicionar()">
+        <select id="visu" size="8"></select>
+        <input type="button" class="botao" value="finalizar" onclick="finalizar()">
+
+        <div id="res"></div>
+    </div>
+</body>
+<script src="/estudos - 7 function array/js/analisar.js"></script>
+
+</html>
